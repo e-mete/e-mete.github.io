@@ -5,11 +5,11 @@ stildosyasi.setAttribute("href", "http://e-mete.com/css/bildirim.css");
 document.getElementsByTagName("head")[0].appendChild(stildosyasi);
 function bildirim(mesaj,tur){
 	var iDiv = document.createElement('div');
-	var turler = ["kdtoast hata","kdtoast basari","kdtoast","kdtoast"];
+	var turler = ["kdtoast hata","kdtoast basari","kdtoast","kdtoast","kdtoast"];
 	iDiv.className = turler[tur];
 	document.getElementsByTagName('body')[0].appendChild(iDiv);
 	iDiv.innerHTML=mesaj;
-	if(tur >= 2){
+	if(tur <= 2){
 	setTimeout(function(){ iDiv.parentNode.removeChild(iDiv); }, 4000);
 	}
 	else{
