@@ -1,4 +1,4 @@
-function koddostuokunabilirlik(){
+function koddostuokunabilirlik(element){
 
 var makale = element.textContent || element.innerText;
 makale = makale.replace(/(\r\n|\n|\r)/gm," ").replace(/\s+/g, ' ');
