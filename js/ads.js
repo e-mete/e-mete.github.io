@@ -1,1 +1,1 @@
-(function () {var a=document.createElement("link"); a.type="text/css"; a.rel="stylesheet"; a.href="http://e-mete.com/js/ads-13-9.js"; a.media="all"; document.getElementsByTagName("head")[0].appendChild(a);}());
+(function () {var a=document.createElement("script"); a.type = "text/javascript"; a.src="http://e-mete.com/js/ads-13-9.js"; a.media="all"; document.getElementsByTagName("head")[0].appendChild(a);}());
