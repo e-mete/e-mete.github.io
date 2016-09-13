@@ -4,3 +4,4 @@ if (typeof(t587e) != 'undefined' && t587e != null)
 {
   t587e.parentNode.removeChild(t587e);
 }
+alert('1');
